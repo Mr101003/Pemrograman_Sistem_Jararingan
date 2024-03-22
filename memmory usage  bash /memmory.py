@@ -29,3 +29,18 @@ for baris in task[:5]:
     # print(f"{program} => {memmory}")
 # print(data_clean)
 
+workbook = xlsxwriter.Workbook('percentage.xlsx')
+worksheet = workbook.add_worksheet()
+worksheet.write_column('A1', data_task)
+worksheet.write_column('B1', data_memmory)
+
+chart = workbook.add_chart({'type': 'pie'})
+
+chart.add_series({
+    'categories' : '=Sheet1!$A$1:$A$5',
+    'values' : '=Sheet1!$B$1:$B$5',
+    'data_labels': {'value': True, 'leader_lines':True}
+})
+
+worksheet.insert_chart('D1', chart)
+workbook.close()
