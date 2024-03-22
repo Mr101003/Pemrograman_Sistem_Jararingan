@@ -1,0 +1,279 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2 167852  8688 ?        Ss   Mar14   0:04 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    Mar14   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Mar14   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Mar14   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   Mar14   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   Mar14   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   Mar14   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   Mar14   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        S    Mar14   0:00 [rcu_tasks_rude_]
+root          12  0.0  0.0      0     0 ?        S    Mar14   0:00 [rcu_tasks_trace]
+root          13  0.0  0.0      0     0 ?        S    Mar14   0:15 [ksoftirqd/0]
+root          14  0.0  0.0      0     0 ?        I    Mar14   0:28 [rcu_sched]
+root          15  0.0  0.0      0     0 ?        S    Mar14   0:00 [migration/0]
+root          16  0.0  0.0      0     0 ?        S    Mar14   0:00 [idle_inject/0]
+root          18  0.0  0.0      0     0 ?        S    Mar14   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    Mar14   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    Mar14   0:00 [idle_inject/1]
+root          21  0.0  0.0      0     0 ?        S    Mar14   0:00 [migration/1]
+root          22  0.0  0.0      0     0 ?        S    Mar14   0:40 [ksoftirqd/1]
+root          24  0.0  0.0      0     0 ?        I<   Mar14   0:00 [kworker/1:0H-events_highpri]
+root          25  0.0  0.0      0     0 ?        S    Mar14   0:00 [kdevtmpfs]
+root          26  0.0  0.0      0     0 ?        I<   Mar14   0:00 [inet_frag_wq]
+root          27  0.0  0.0      0     0 ?        S    Mar14   0:00 [kauditd]
+root          28  0.0  0.0      0     0 ?        S    Mar14   0:00 [khungtaskd]
+root          29  0.0  0.0      0     0 ?        S    Mar14   0:00 [oom_reaper]
+root          30  0.0  0.0      0     0 ?        I<   Mar14   0:00 [writeback]
+root          31  0.0  0.0      0     0 ?        S    Mar14   0:24 [kcompactd0]
+root          32  0.0  0.0      0     0 ?        SN   Mar14   0:00 [ksmd]
+root          33  0.0  0.0      0     0 ?        SN   Mar14   0:00 [khugepaged]
+root          80  0.0  0.0      0     0 ?        I<   Mar14   0:00 [kintegrityd]
+root          81  0.0  0.0      0     0 ?        I<   Mar14   0:00 [kblockd]
+root          82  0.0  0.0      0     0 ?        I<   Mar14   0:00 [blkcg_punt_bio]
+root          83  0.0  0.0      0     0 ?        I<   Mar14   0:00 [tpm_dev_wq]
+root          84  0.0  0.0      0     0 ?        I<   Mar14   0:00 [ata_sff]
+root          85  0.0  0.0      0     0 ?        I<   Mar14   0:00 [md]
+root          86  0.0  0.0      0     0 ?        I<   Mar14   0:00 [edac-poller]
+root          87  0.0  0.0      0     0 ?        I<   Mar14   0:00 [devfreq_wq]
+root          88  0.0  0.0      0     0 ?        S    Mar14   0:00 [watchdogd]
+root          90  0.0  0.0      0     0 ?        I<   Mar14   0:04 [kworker/0:1H-acpi_thermal_pm]
+root          92  0.0  0.0      0     0 ?        S    Mar14   0:19 [kswapd0]
+root          93  0.0  0.0      0     0 ?        S    Mar14   0:00 [ecryptfs-kthrea]
+root          95  0.0  0.0      0     0 ?        I<   Mar14   0:00 [kthrotld]
+root          96  0.0  0.0      0     0 ?        I<   Mar14   0:00 [acpi_thermal_pm]
+root          98  0.0  0.0      0     0 ?        I<   Mar14   0:00 [vfio-irqfd-clea]
+root         101  0.0  0.0      0     0 ?        I<   Mar14   0:00 [mld]
+root         102  0.0  0.0      0     0 ?        I<   Mar14   0:00 [ipv6_addrconf]
+root         111  0.0  0.0      0     0 ?        I<   Mar14   0:00 [kstrp]
+root         114  0.0  0.0      0     0 ?        I<   Mar14   0:00 [zswap-shrink]
+root         122  0.0  0.0      0     0 ?        I<   Mar14   0:00 [charger_manager]
+root         168  0.0  0.0      0     0 ?        I<   Mar14   0:02 [kworker/1:1H-events_highpri]
+root         169  0.0  0.0      0     0 ?        I<   Mar14   0:00 [nvme-wq]
+root         170  0.0  0.0      0     0 ?        I<   Mar14   0:00 [nvme-reset-wq]
+root         171  0.0  0.0      0     0 ?        I<   Mar14   0:00 [nvme-delete-wq]
+root         173  0.0  0.0      0     0 ?        I<   Mar14   0:00 [sdhci]
+root         179  0.0  0.0      0     0 ?        I<   Mar14   0:00 [cryptd]
+root         208  0.1  0.0      0     0 ?        S    Mar14   1:14 [irq/130-ELAN061]
+root         222  0.0  0.0      0     0 ?        S    Mar14   0:00 [spi1]
+root         223  0.0  0.0      0     0 ?        S    Mar14   0:00 [spi2]
+root         224  0.0  0.0      0     0 ?        S    Mar14   0:00 [card0-crtc0]
+root         225  0.0  0.0      0     0 ?        S    Mar14   0:00 [card0-crtc1]
+root         226  0.0  0.0      0     0 ?        S    Mar14   0:00 [card0-crtc2]
+root         227  0.0  0.0      0     0 ?        S    Mar14   0:00 [spi3]
+root         286  0.0  0.0      0     0 ?        S    Mar14   0:02 [jbd2/nvme0n1p2-]
+root         287  0.0  0.0      0     0 ?        I<   Mar14   0:00 [ext4-rsv-conver]
+root         339  0.0  0.4 102916 18764 ?        S<s  Mar14   0:01 /lib/systemd/systemd-journald
+root         367  0.0  0.0  26628  3400 ?        Ss   Mar14   0:00 /lib/systemd/systemd-udevd
+root         411  0.0  0.0      0     0 ?        I<   Mar14   0:00 [cfg80211]
+root         429  0.0  0.0      0     0 ?        S    Mar14   0:11 [irq/133-iwlwifi]
+root         431  0.0  0.0      0     0 ?        S    Mar14   0:13 [irq/134-iwlwifi]
+root         433  0.0  0.0      0     0 ?        S    Mar14   0:12 [irq/135-iwlwifi]
+root         434  0.0  0.0      0     0 ?        S    Mar14   0:00 [irq/136-iwlwifi]
+root         573  0.0  0.0      0     0 ?        S<   Mar14   0:00 [spl_system_task]
+root         574  0.0  0.0      0     0 ?        S<   Mar14   0:00 [spl_delay_taskq]
+root         575  0.0  0.0      0     0 ?        S<   Mar14   0:00 [spl_dynamic_tas]
+root         576  0.0  0.0      0     0 ?        S<   Mar14   0:00 [spl_kmem_cache]
+root         577  0.0  0.0      0     0 ?        S<   Mar14   0:00 [zvol]
+root         578  0.0  0.0      0     0 ?        S    Mar14   0:00 [arc_prune]
+root         579  0.0  0.0      0     0 ?        S    Mar14   0:00 [arc_evict]
+root         580  0.0  0.0      0     0 ?        SN   Mar14   0:00 [arc_reap]
+root         581  0.0  0.0      0     0 ?        S    Mar14   0:00 [dbu_evict]
+root         582  0.0  0.0      0     0 ?        SN   Mar14   0:00 [dbuf_evict]
+root         583  0.0  0.0      0     0 ?        SN   Mar14   0:00 [z_vdev_file]
+root         584  0.0  0.0      0     0 ?        S    Mar14   0:00 [l2arc_feed]
+systemd+     621  0.0  0.1  26528  6448 ?        Ss   Mar14   0:03 /lib/systemd/systemd-resolved
+systemd+     622  0.0  0.0  89520  3208 ?        Ssl  Mar14   0:00 /lib/systemd/systemd-timesyncd
+root         656  0.0  0.1 240508  6720 ?        Ssl  Mar14   0:00 /usr/libexec/accounts-daemon
+root         657  0.0  0.0   2816  1040 ?        Ss   Mar14   0:00 /usr/sbin/acpid
+avahi        659  0.0  0.1   8028  3844 ?        Ss   Mar14   0:03 avahi-daemon: running [Maxzcv-PC.local]
+root         662  0.0  0.1  10760  4256 ?        Ss   Mar14   0:00 /usr/lib/bluetooth/bluetoothd
+root         663  0.0  0.0   9500  2712 ?        Ss   Mar14   0:00 /usr/sbin/cron -f -P
+message+     664  0.0  0.1  11260  5996 ?        Ss   Mar14   0:04 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         665  0.0  0.3 262488 12560 ?        Ssl  Mar14   0:05 /usr/sbin/NetworkManager --no-daemon
+root         671  0.0  0.1  82828  3824 ?        Ssl  Mar14   0:02 /usr/sbin/irqbalance --foreground
+root         674  0.0  0.2  41064  8436 ?        Ss   Mar14   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         675  0.0  0.2 243708  9872 ?        Ssl  Mar14   0:01 /usr/libexec/polkitd --no-debug
+root         679  0.0  0.1 240100  5652 ?        Ssl  Mar14   0:00 /usr/libexec/power-profiles-daemon
+prometh+     681  0.0  0.0 1012252 2316 ?        Ssl  Mar14   0:00 /usr/bin/prometheus-node-exporter
+syslog       682  0.0  0.1 222404  3824 ?        Ssl  Mar14   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         684  0.0  0.0  11400  3688 ?        Ss   Mar14   0:00 /usr/sbin/smartd -n
+root         686  0.0  0.1 236384  5600 ?        Ssl  Mar14   0:00 /usr/libexec/switcheroo-control
+root         687  0.0  0.1  48220  5192 ?        Ss   Mar14   0:00 /lib/systemd/systemd-logind
+root         688  0.0  0.1 276220  7132 ?        Ssl  Mar14   0:05 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+root         689  0.0  0.2 184796  9164 ?        Ssl  Mar14   0:19 /usr/bin/touchegg --daemon
+root         694  0.0  0.1 392732  7160 ?        Ssl  Mar14   0:00 /usr/libexec/udisks2/udisksd
+root         695  0.0  0.1  17828  7360 ?        Ss   Mar14   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        702  0.0  0.0   7444   220 ?        S    Mar14   0:00 avahi-daemon: chroot helper
+root         744  0.0  0.1 318064  6688 ?        Ssl  Mar14   0:00 /usr/sbin/ModemManager
+docker-+     831  0.0  0.1 1093132 4904 ?        Ssl  Mar14   0:01 /usr/bin/docker-registry serve /etc/docker/registry/config.yml
+redis        836  0.0  0.1  72376  5928 ?        Ssl  Mar14   0:49 /usr/bin/redis-server 127.0.0.1:6379
+Debian-+     837  0.0  0.1  26868  4660 ?        Ss   Mar14   0:10 /usr/sbin/snmpd -LOw -u Debian-snmp -g Debian-snmp -I -smux mteTrigger mteTriggerConf -f
+root         849  0.0  0.1 306888  5388 ?        SLsl Mar14   0:00 /usr/sbin/lightdm
+root         859  0.1  0.2 1285096 10224 ?       Ssl  Mar14   1:40 /usr/bin/containerd
+root         865  0.0  0.1 242812  6760 ?        Ssl  Mar14   0:00 /usr/libexec/upowerd
+root         882  0.0  0.0  15436  3460 ?        Ss   Mar14   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         934  0.0  0.0  55784   440 ?        Ss   Mar14   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data     944  0.0  0.0  56092  2496 ?        S    Mar14   0:00 nginx: worker process
+www-data     945  0.0  0.0  56092  2572 ?        S    Mar14   0:00 nginx: worker process
+root         967  0.9  0.8 905980 34052 tty7     Ssl+ Mar14   8:41 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         974  0.0  0.0   8780   980 tty1     Ss+  Mar14   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+mysql        996  0.0  0.5 1338148 19972 ?       Ssl  Mar14   0:05 /usr/sbin/mariadbd
+ntopng      1103  0.3  1.2 1328736 46540 ?       Ssl  Mar14   3:14 /usr/sbin/ntopng /etc/ntopng.conf
+rtkit       1164  0.0  0.0 154004  1288 ?        SNsl Mar14   0:00 /usr/libexec/rtkit-daemon
+root        1225  0.0  0.0      0     0 ?        S<   Mar14   0:00 [krfcommd]
+root        1236  0.0  0.1 164884  5784 ?        Sl   Mar14   0:00 lightdm --session-child 12 19
+root        1293  0.0  0.4 1393072 18268 ?       Ssl  Mar14   0:04 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1297  0.0  0.1 723256  6376 ?        Ssl  Mar14   0:01 /etc/snmp_exporter/snmp_exporter --config.file=/etc/snmp_exporter/snmp.yml
+kernoops    1313  0.0  0.0  13088   128 ?        Ss   Mar14   0:00 /usr/sbin/kerneloops --test
+kernoops    1320  0.0  0.0  13088  2276 ?        Ss   Mar14   0:00 /usr/sbin/kerneloops
+root        1386  0.0  0.0      0     0 ?        I<   Mar14   0:00 [iprt-VBoxWQueue]
+root        1414  0.0  0.0      0     0 ?        S    Mar14   0:00 [iprt-VBoxTscThr]
+root        1932  0.0  0.2  73704 10232 ?        Ss   00:00   0:00 /usr/sbin/cupsd -l
+root        1934  0.0  0.3 175172 12968 ?        Ssl  00:00   0:00 /usr/sbin/cups-browsed
+maxzcv      2086  0.0  0.1  17564  6724 ?        Ss   00:13   0:00 /lib/systemd/systemd --user
+maxzcv      2087  0.0  0.0 106044   736 ?        S    00:13   0:00 (sd-pam)
+maxzcv      2094  0.0  0.0  39860  3572 ?        S<sl 00:13   0:00 /usr/bin/pipewire
+maxzcv      2095  0.0  0.1  23624  4224 ?        Ssl  00:13   0:00 /usr/bin/pipewire-media-session
+maxzcv      2096  0.3  0.4 1500912 16044 ?       S<sl 00:13   3:08 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+maxzcv      2099  0.0  0.1  10072  5232 ?        Ss   00:13   0:02 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+maxzcv      2100  0.0  0.1 241080  5448 ?        SLl  00:13   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+maxzcv      2104  0.0  0.2 683328  8904 ?        Ssl  00:13   0:00 cinnamon-session --session cinnamon
+maxzcv      2196  0.0  0.1 312840  5552 ?        Ssl  00:13   0:06 /usr/bin/ibus-daemon --daemonize --xim
+maxzcv      2204  0.0  0.1 240644  6668 ?        Ssl  00:13   0:00 /usr/libexec/gvfsd
+maxzcv      2210  0.0  0.0 380892  3636 ?        Sl   00:13   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+maxzcv      2212  0.0  0.1 163484  4768 ?        Sl   00:13   0:00 /usr/libexec/ibus-memconf
+maxzcv      2214  0.0  0.3 537396 14148 ?        Sl   00:13   0:01 /usr/libexec/ibus-ui-gtk3
+maxzcv      2215  0.0  0.2 306476 11360 ?        Sl   00:13   0:02 /usr/libexec/ibus-extension-gtk3
+maxzcv      2222  0.0  0.2 227552  9752 ?        Sl   00:13   0:00 /usr/libexec/ibus-x11 --kill-daemon
+maxzcv      2233  0.0  0.1 384728  4924 ?        Sl   00:13   0:00 /usr/libexec/ibus-portal
+maxzcv      2240  0.0  0.1 230516  4228 ?        Sl   00:13   0:00 csd-screensaver-proxy
+maxzcv      2243  0.0  0.2 598072 10840 ?        Sl   00:13   0:00 csd-color
+maxzcv      2246  0.0  0.1 244076  7452 ?        Sl   00:13   0:00 csd-print-notifications
+maxzcv      2249  0.0  0.1 309920  5856 ?        Sl   00:13   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+maxzcv      2251  0.0  0.2 367884  9576 ?        Sl   00:13   0:00 csd-background
+maxzcv      2253  0.0  0.2 301328 10228 ?        Sl   00:13   0:00 csd-housekeeping
+maxzcv      2255  0.0  0.2 300988  9888 ?        Sl   00:13   0:01 csd-keyboard
+maxzcv      2266  0.0  0.3 546088 15056 ?        Sl   00:13   0:01 csd-power
+maxzcv      2268  0.0  0.2 226936  9712 ?        Sl   00:13   0:00 csd-clipboard
+maxzcv      2269  0.0  0.0   8696  3552 ?        S    00:13   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+maxzcv      2271  0.0  0.2 302688 10000 ?        Sl   00:13   0:00 csd-xsettings
+maxzcv      2281  0.0  0.2 301404  9864 ?        Sl   00:13   0:00 csd-wacom
+maxzcv      2282  0.0  0.2 375160 10476 ?        Sl   00:13   0:00 csd-automount
+maxzcv      2284  0.0  0.2 976964 11364 ?        Sl   00:13   0:00 csd-media-keys
+maxzcv      2286  0.0  0.1 231128  4076 ?        Sl   00:13   0:00 csd-settings-remap
+maxzcv      2287  0.0  0.1 162860  6000 ?        Sl   00:13   0:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+maxzcv      2288  0.0  0.1 232128  4280 ?        Sl   00:13   0:00 csd-a11y-settings
+maxzcv      2306  0.0  0.1 157492  5372 ?        Ssl  00:13   0:00 /usr/libexec/dconf-service
+maxzcv      2307  0.0  0.2 342360  9536 ?        Sl   00:13   0:00 /usr/libexec/csd-printer
+colord      2312  0.0  0.2 246616  9356 ?        Ssl  00:13   0:00 /usr/libexec/colord
+maxzcv      2362  0.0  0.1 316100  6512 ?        Ssl  00:13   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+maxzcv      2369  0.0  0.4 464744 16180 ?        Sl   00:13   0:02 cinnamon-launcher
+maxzcv      2373  0.0  0.1 163484  4680 ?        Sl   00:13   0:01 /usr/libexec/ibus-engine-simple
+maxzcv      2374  0.0  0.1 237248  5080 ?        Ssl  00:13   0:00 /usr/libexec/gvfs-goa-volume-monitor
+maxzcv      2381  0.0  1.2 792220 46712 ?        SLl  00:13   0:04 /usr/libexec/goa-daemon
+maxzcv      2401  0.0  0.2 338404  8484 ?        Sl   00:13   0:00 /usr/libexec/goa-identity-service
+maxzcv      2403  0.0  0.1 236464  5552 ?        Ssl  00:13   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+maxzcv      2410  0.0  0.1 315212  5272 ?        Ssl  00:13   0:00 /usr/libexec/gvfs-afc-volume-monitor
+maxzcv      2416  1.9  2.6 4236804 100864 ?      Sl   00:13  16:33 cinnamon --replace
+maxzcv      2421  0.0  0.1 237556  5684 ?        Ssl  00:13   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+maxzcv      2444  0.0  0.3 375460 13392 ?        Sl   00:13   0:00 /usr/lib/x86_64-linux-gnu/xapps/xapp-sn-watcher
+maxzcv      2468  0.0  0.3 644872 12396 ?        Sl   00:13   0:02 /usr/lib/x86_64-linux-gnu/libexec/kdeconnectd
+maxzcv      2473  0.0  0.4 1035640 18260 ?       Sl   00:13   0:01 nemo-desktop
+maxzcv      2474  0.0  0.2 226836  9624 ?        Sl   00:13   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+maxzcv      2475  0.0  0.1 237116  4832 ?        Sl   00:13   0:00 /usr/libexec/geoclue-2.0/demos/agent
+maxzcv      2476  0.0  0.4 685980 17384 ?        Sl   00:13   0:02 nm-applet
+maxzcv      2479  0.0  0.3 954504 14844 ?        Sl   00:13   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+maxzcv      2482  0.0  0.4 481212 15740 ?        Sl   00:13   0:06 /usr/bin/python3 /usr/bin/blueman-applet
+maxzcv      2486  0.0  0.2 315388  9532 ?        Sl   00:13   0:00 cinnamon-killer-daemon
+maxzcv      2500  0.0  0.0   2892   688 ?        S    00:13   0:00 sh -c /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+maxzcv      2501  0.0  0.1 233360  4072 ?        Sl   00:13   0:00 /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+maxzcv      2534  0.0  0.4 1076700 16172 ?       Ssl  00:13   0:00 /usr/libexec/evolution-source-registry
+maxzcv      2554  0.0  0.1 163732  6072 ?        Ssl  00:13   0:00 /usr/libexec/gvfsd-metadata
+maxzcv      2571  0.0  0.8 1221504 33168 ?       Ssl  00:13   0:02 /usr/libexec/evolution-calendar-factory
+maxzcv      2590  0.0  0.2 680616 10080 ?        Ssl  00:13   0:00 /usr/libexec/evolution-addressbook-factory
+maxzcv      2594  0.0  0.0   2892   776 ?        S    00:13   0:00 sh -c /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+maxzcv      2597  0.0  0.1 233360  3880 ?        Sl   00:13   0:00 /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+maxzcv      2611  0.0  0.0   2892   688 ?        S    00:13   0:00 sh -c /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+maxzcv      2618  0.0  0.1 233360  3900 ?        Sl   00:13   0:00 /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+maxzcv      2653  0.0  0.0  46960  3752 ?        Ss   00:13   0:00 /usr/lib/bluetooth/obexd
+maxzcv      2655  0.0  0.3 317192 11732 ?        Sl   00:13   0:23 /usr/bin/python3 /usr/bin/blueman-tray
+maxzcv      2714  0.0  0.1 314712  5484 ?        Sl   00:13   0:00 /usr/libexec/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
+maxzcv      3020  0.0  0.3  61296 14028 ?        S    00:13   0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+maxzcv      3026  0.0  0.1 236744  4836 ?        Ssl  00:13   0:00 /usr/libexec/flatpak-session-helper
+maxzcv      3030  0.0  0.0   4108     0 ?        Ss   00:13   0:00 server --sh -n /run/user/1000/.flatpak-helper/pkcs11-flatpak-3026 --provider p11-kit-trust.so pkcs11:model=p11-kit-trust?write-protected=yes
+maxzcv      3032  0.0  0.1 610644  5980 ?        Ssl  00:13   0:00 /usr/libexec/xdg-document-portal
+maxzcv      3035  0.0  0.1 236164  4308 ?        Ssl  00:13   0:00 /usr/libexec/xdg-permission-store
+root        3041  0.0  0.0   2796   800 ?        Ss   00:13   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+maxzcv      3081  0.0  0.2 812592  8860 ?        Ssl  00:13   0:00 /usr/libexec/xdg-desktop-portal
+maxzcv      3087  0.0  0.1 310536  5780 ?        Ssl  00:13   0:00 /usr/libexec/xdg-desktop-portal-xapp
+maxzcv      3097  0.0  0.0   2892   812 ?        S    00:13   0:00 sh -c /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+maxzcv      3100  0.0  0.1 233360  4008 ?        Sl   00:13   0:00 /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+maxzcv      3104  0.0  0.2 376420 11044 ?        Ssl  00:13   0:00 /usr/libexec/xdg-desktop-portal-gtk
+maxzcv      3195  0.2  0.4 481628 16660 ?        Sl   00:13   1:54 mintreport-tray
+maxzcv      3493  0.0  0.0   2892   688 ?        S    00:16   0:00 sh -c /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+maxzcv      3494  0.0  0.1 233360  4088 ?        Sl   00:16   0:00 /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+maxzcv      3514  0.0  0.3 732720 12708 ?        Sl   00:16   0:00 mintUpdate
+root        5371  0.0  0.2 298240  9884 ?        Ssl  02:01   0:00 /usr/libexec/packagekitd
+root       13020  0.0  0.0      0     0 ?        I    05:05   0:02 [kworker/u8:0-flush-259:0]
+root       13938  0.0  0.0      0     0 ?        D<   05:38   0:02 [kworker/u9:1+i915_flip]
+root       15543  0.0  0.0      0     0 ?        S    13:45   0:00 [irq/39-mmc0]
+root       15544  0.0  0.0      0     0 ?        S    13:45   0:00 [irq/125-mei_me]
+maxzcv     15888  4.4  6.2 34337364 239648 ?     SLl  13:45   1:17 /opt/google/chrome/chrome
+maxzcv     15896  0.0  0.0   8516   884 ?        S    13:45   0:00 cat
+maxzcv     15897  0.0  0.0   8516   900 ?        S    13:45   0:00 cat
+maxzcv     15899  0.0  0.0 33576900 2092 ?       Sl   13:45   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/maxzcv/.config/google-chrome/Crash Reports --metrics-dir=/home/maxzcv/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Linux Mint 21.3 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=122.0.6261.128 --initial-client-fd=5 --shared-client-connection
+maxzcv     15901  0.0  0.0 33567664 604 ?        Sl   13:45   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/maxzcv/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Linux Mint 21.3 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=122.0.6261.128 --initial-client-fd=4 --shared-client-connection
+maxzcv     15907  0.0  0.6 33921684 22904 ?      S    13:45   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --change-stack-guard-on-fork=enable
+maxzcv     15908  0.0  0.6 33921676 26068 ?      S    13:45   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --change-stack-guard-on-fork=enable
+maxzcv     15910  0.0  0.2 33921704 8620 ?       S    13:45   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --change-stack-guard-on-fork=enable
+maxzcv     15934  3.5  2.7 34296452 106296 ?     Sl   13:45   1:03 /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,622247045163530331,15590302136451477191,262144 --variations-seed-version=20240314-050107.732000
+maxzcv     15935  0.5  2.0 33922464 76296 ?      Sl   13:45   0:09 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,622247045163530331,15590302136451477191,262144 --variations-seed-version=20240314-050107.732000
+maxzcv     15945  0.0  1.0 33980756 41064 ?      Sl   13:45   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,622247045163530331,15590302136451477191,262144 --variations-seed-version=20240314-050107.732000
+lp         15992  0.0  0.1  16288  4692 ?        S    13:45   0:00 /usr/lib/cups/notifier/dbus dbus://
+maxzcv     16048  0.4  3.3 1186247616 129568 ?   Sl   13:45   0:08 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=1 --renderer-client-id=7 --time-ticks-at-unix-epoch=-1710466969553818 --launch-time-ticks=18183399755 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,622247045163530331,15590302136451477191,262144 --variations-seed-version=20240314-050107.732000
+maxzcv     16066  0.7  3.7 1186240052 141528 ?   Sl   13:45   0:12 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=1 --renderer-client-id=10 --time-ticks-at-unix-epoch=-1710466969553818 --launch-time-ticks=18183554607 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,622247045163530331,15590302136451477191,262144 --variations-seed-version=20240314-050107.732000
+maxzcv     16091  0.0  2.0 1186226624 78764 ?    Sl   13:45   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=1 --renderer-client-id=13 --time-ticks-at-unix-epoch=-1710466969553818 --launch-time-ticks=18184939108 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,622247045163530331,15590302136451477191,262144 --variations-seed-version=20240314-050107.732000
+maxzcv     16116  0.0  0.3 201672 15020 ?        Sl   13:45   0:00 /usr/bin/python3 /usr/bin/chrome-gnome-shell chrome-extension://gphhapmejobijbbhgpjhcjognlahblep/
+maxzcv     16204  0.1  0.9 548252 37472 ?        Ssl  13:46   0:03 /usr/libexec/gnome-terminal-server
+maxzcv     16227  0.0  0.1  11836  4944 pts/0    Ss+  13:46   0:00 bash
+maxzcv     16314  1.1  3.2 1186248988 125500 ?   Sl   13:46   0:19 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=1 --renderer-client-id=24 --time-ticks-at-unix-epoch=-1710466969553818 --launch-time-ticks=18248775903 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,622247045163530331,15590302136451477191,262144 --variations-seed-version=20240314-050107.732000
+maxzcv     16540  0.1  1.5 986636 58040 ?        Sl   13:52   0:02 nemo
+maxzcv     16642  0.8  4.2 1188401608 163924 ?   Sl   13:54   0:10 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=1 --renderer-client-id=46 --time-ticks-at-unix-epoch=-1710466969553818 --launch-time-ticks=18694640703 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,622247045163530331,15590302136451477191,262144 --variations-seed-version=20240314-050107.732000
+root       16659  0.1  1.6 435000 61696 ?        Ssl  13:54   0:01 /usr/libexec/fwupd/fwupd
+root       16887  0.0  0.0      0     0 ?        I<   13:59   0:00 [kworker/u9:2-rb_allocator]
+root       16911  0.1  0.0      0     0 ?        I    14:00   0:01 [kworker/1:1-events]
+maxzcv     16922  0.0  2.8 1186231584 109332 ?   Sl   14:00   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=1 --renderer-client-id=67 --time-ticks-at-unix-epoch=-1710466969553818 --launch-time-ticks=19048131033 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,622247045163530331,15590302136451477191,262144 --variations-seed-version=20240314-050107.732000
+maxzcv     16932  0.2  3.0 1188390728 115692 ?   Sl   14:00   0:02 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --change-stack-guard-on-fork=enable --pdf-renderer --lang=en-US --js-flags=--jitless --num-raster-threads=1 --renderer-client-id=68 --time-ticks-at-unix-epoch=-1710466969553818 --launch-time-ticks=19048410693 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,622247045163530331,15590302136451477191,262144 --variations-seed-version=20240314-050107.732000
+root       16954  0.0  0.0      0     0 ?        I    14:00   0:00 [kworker/u8:1-i915]
+maxzcv     16956  2.1  8.9 1178645900 340180 ?   SLl  14:00   0:18 /usr/share/code/code --unity-launch
+maxzcv     16960  0.0  0.9 33777380 36772 ?      S    14:00   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+maxzcv     16961  0.0  0.9 33777368 36824 ?      S    14:00   0:00 /usr/share/code/code --type=zygote
+maxzcv     16963  0.0  0.2 33777392 11228 ?      S    14:00   0:00 /usr/share/code/code --type=zygote
+maxzcv     16977  0.0  0.2 33601620 9744 ?       Sl   14:00   0:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/maxzcv/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=99760399-1f7e-4337-8c1a-b39725ff97b3&iid=99760399-1f7e-4337-8c1a-b39725ff97b3&sid=99760399-1f7e-4337-8c1a-b39725ff97b3 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.87.2 --annotation=lsb-release=Linux Mint 21.3 --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=27.3.2 --initial-client-fd=42 --shared-client-connection
+maxzcv     16992  1.3  2.6 34193892 102336 ?     Sl   14:00   0:11 /usr/share/code/code --type=gpu-process --crashpad-handler-pid=16977 --enable-crash-reporter=56112aed-ec08-4671-8276-0bfee09581cd,no_channel --user-data-dir=/home/maxzcv/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,3436201332813795616,2151949041141684025,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+maxzcv     17001  0.6  1.3 33827644 53160 ?      Sl   14:00   0:05 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=16977 --enable-crash-reporter=56112aed-ec08-4671-8276-0bfee09581cd,no_channel --user-data-dir=/home/maxzcv/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3436201332813795616,2151949041141684025,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+maxzcv     17025  5.7  5.7 1191032840 220952 ?   Sl   14:00   0:49 /usr/share/code/code --type=renderer --crashpad-handler-pid=16977 --enable-crash-reporter=56112aed-ec08-4671-8276-0bfee09581cd,no_channel --user-data-dir=/home/maxzcv/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --first-renderer-process --lang=en-US --num-raster-threads=1 --renderer-client-id=4 --time-ticks-at-unix-epoch=-1710466969553819 --launch-time-ticks=19072043353 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3436201332813795616,2151949041141684025,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:0d3dd2c5-839d-413b-9234-1fb9bf6f134a
+maxzcv     17072  3.8  2.3 1178405400 90924 ?    Sl   14:00   0:33 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=16977 --enable-crash-reporter=56112aed-ec08-4671-8276-0bfee09581cd,no_channel --user-data-dir=/home/maxzcv/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3436201332813795616,2151949041141684025,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+root       17109  0.0  0.0      0     0 ?        I    14:00   0:00 [kworker/u8:2-i915]
+maxzcv     17150  0.0  0.2 388904  7856 ?        Sl   14:00   0:00 /usr/libexec/gvfsd-network --spawner :1.10 /org/gtk/gvfs/exec_spaw/1
+maxzcv     17167  0.0  0.2 316828  8032 ?        Sl   14:00   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.10 /org/gtk/gvfs/exec_spaw/3
+maxzcv     17181  0.4  2.0 1178422348 78760 ?    Sl   14:00   0:03 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=16977 --enable-crash-reporter=56112aed-ec08-4671-8276-0bfee09581cd,no_channel --user-data-dir=/home/maxzcv/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3436201332813795616,2151949041141684025,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+root       17311  0.2  0.0      0     0 ?        I    14:01   0:02 [kworker/0:0-events]
+maxzcv     17346  0.4  2.1 1178422288 80816 ?    Sl   14:01   0:03 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=16977 --enable-crash-reporter=56112aed-ec08-4671-8276-0bfee09581cd,no_channel --user-data-dir=/home/maxzcv/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3436201332813795616,2151949041141684025,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+maxzcv     17361  1.9  5.0 1178412944 191468 ?   Sl   14:01   0:16 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=16977 --enable-crash-reporter=56112aed-ec08-4671-8276-0bfee09581cd,no_channel --user-data-dir=/home/maxzcv/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3436201332813795616,2151949041141684025,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+maxzcv     17544  0.1  2.4 1178369540 95188 ?    Sl   14:02   0:01 /usr/share/code/code /home/maxzcv/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.8/dist/server/server.js --node-ipc --clientProcessId=17361
+maxzcv     17553  0.0  0.1  11292  5292 pts/1    Ss+  14:02   0:00 /usr/bin/bash
+maxzcv     17569  0.1  1.2 131380 46040 ?        Sl   14:02   0:01 /bin/python3 /home/maxzcv/.vscode/extensions/ms-python.isort-2023.10.1/bundled/tool/lsp_server.py
+maxzcv     17587  4.8  9.9 1180517168 379804 ?   Sl   14:02   0:37 /usr/share/code/code /home/maxzcv/.vscode/extensions/ms-python.vscode-pylance-2024.2.3/dist/server.bundle.js --cancellationReceive=file:beef47a50debb4f02d1fdb2faee4976ac67864c383 --node-ipc --clientProcessId=17361
+maxzcv     18126  0.0  0.1  11448  5588 pts/2    Ss   14:04   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+maxzcv     18486 15.0  6.0 1186253428 231644 ?   Sl   14:06   1:21 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=1 --renderer-client-id=78 --time-ticks-at-unix-epoch=-1710466969553818 --launch-time-ticks=19396682581 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,622247045163530331,15590302136451477191,262144 --variations-seed-version=20240314-050107.732000
+root       18591  0.0  0.0      0     0 ?        I    14:06   0:00 [kworker/0:2-events]
+root       18677  0.0  0.0      0     0 ?        I    14:07   0:00 [kworker/1:0-events]
+root       18977  0.0  0.0      0     0 ?        I<   14:08   0:00 [kworker/u9:0]
+root       19558  0.0  0.0      0     0 ?        I    14:11   0:00 [kworker/0:1-events]
+root       19696  0.0  0.0      0     0 ?        I    14:12   0:00 [kworker/1:2-events]
+maxzcv     19922  0.0  1.5 1186226620 59468 ?    Sl   14:13   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=15899 --enable-crash-reporter=f53cb02c-8816-4a58-9acf-64961f15751b, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=1 --renderer-client-id=95 --time-ticks-at-unix-epoch=-1710466969553818 --launch-time-ticks=19861225546 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,622247045163530331,15590302136451477191,262144 --variations-seed-version=20240314-050107.732000
+maxzcv     20190  0.0  0.2  20072  9696 pts/2    S+   14:15   0:00 /bin/python3 /home/maxzcv/Documents/perkuliahan/kuliah/semester 4/Pemrograman Sistem dan Jaringan/Tugas/shell/memmoryy.py
+maxzcv     20191  0.0  0.0   2896   944 pts/2    S+   14:15   0:00 /bin/sh -c ps aux
+maxzcv     20192  0.0  0.0  12680  3568 pts/2    R+   14:15   0:00 ps aux
