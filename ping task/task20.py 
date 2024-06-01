@@ -1,0 +1,49 @@
+import os
+import xlsxwriter
+
+# Fungsi untuk menjalankan perintah ping dan mengambil outputnya
+def run_ping(address):
+    try:
+        # Menjalankan perintah ping dan menangkap outputnya
+        ping_output = os.popen(f"ping -c 5 {address}").read()
+        return ping_output
+    except Exception as e:
+        print(f"Error occurred while pinging {address}: {str(e)}")
+        return None
+
+# Fungsi untuk membaca alamat ping dari file teks
+def read_ping_addresses(filename):
+    addresses = []
+    try:
+        with open(filename, 'r') as file:
+            addresses = file.readlines()
+        addresses = [address.strip() for address in addresses]
+    except FileNotFoundError:
+        print(f"File {filename} tidak ditemukan.")
+    return addresses
+
+# Baca alamat ping dari file teks
+filename = "ping task/host_data.txt"
+ping_addresses = read_ping_addresses(filename)
+
+# Mengumpulkan hasil ping dari setiap alamat
+ping_results = {}
+for address in ping_addresses:
+    # Menjalankan fungsi pada setiap baris dalam file
+    ping_output = run_ping(address)
+    if ping_output:
+        ping_results[address] = ping_output
+        print(ping_output)
+
+
+# Menulis hasil ping ke dalam file Excel
+# workbook = xlsxwriter.Workbook('ping_results.xlsx')
+# worksheet = workbook.add_worksheet()
+
+# row = 0
+# for address, output in ping_results.items():
+#     worksheet.write(row, 0, address)
+#     worksheet.write(row, 1, output)
+#     row += 1
+
+# workbook.close()
